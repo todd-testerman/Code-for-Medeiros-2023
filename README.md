@@ -1,10 +1,12 @@
-# Microbiome Analysis for Medeiros et al., 2023
+# Microbiome Analysis for Medeiros et al., 2024
 
-Analysis code for comparing gut microbiome composition in Alzheimer's disease patients across baseline, control (ADC), and probiotic (ADP) treatment cohorts.
+[![DOI](https://img.shields.io/badge/DOI-10.3389%2Ffnins.2024.1309075-blue)](https://doi.org/10.3389/fnins.2024.1309075)
+
+Analysis code for the paper: **"Slowing Alzheimer's disease progression through probiotic supplementation"** published in *Frontiers in Neuroscience*.
 
 ## Overview
 
-This repository contains R code for processing QIIME2 metagenomic sequencing data to analyze bacterial phylum-level abundance differences. The analysis focuses on comparing Bacteroidetes and Firmicutes relative abundance between patient cohorts.
+This repository contains R code for processing QIIME2 metagenomic sequencing data to analyze bacterial phylum-level abundance differences in Alzheimer's disease patients. The analysis compares Bacteroidetes and Firmicutes relative abundance across baseline, control (ADC), and probiotic (ADP) treatment cohorts, investigating the gut-brain axis in neurodegeneration.
 
 ## Repository Structure
 
@@ -87,16 +89,32 @@ The analysis generates:
 3. Open `analysis/R-Processing-and-Figure.md` in RStudio
 4. Run the code chunks sequentially
 
-## Author
+## Authors
 
-**Todd Testerman**
-Analysis date: August 22, 2023
+**Code:** Todd Testerman
+
+**Paper:** Destynie Medeiros, Kristina McMurry, Melissa Pfeiffer, Kayla Newsome, Todd Testerman, Joerg Graf, Adam C. Silver, and Paola Sacchetti
 
 ## Citation
 
-If you use this code, please cite:
+If you use this code or find it helpful, please cite the original paper:
 
-> Medeiros et al., 2023. [Add full citation when available]
+> Medeiros D, McMurry K, Pfeiffer M, Newsome K, Testerman T, Graf J, Silver AC and Sacchetti P (2024) Slowing Alzheimer's disease progression through probiotic supplementation. *Front. Neurosci.* 18:1309075. doi: [10.3389/fnins.2024.1309075](https://doi.org/10.3389/fnins.2024.1309075)
+
+### BibTeX
+
+```bibtex
+@article{medeiros2024slowing,
+  title={Slowing Alzheimer's disease progression through probiotic supplementation},
+  author={Medeiros, Destynie and McMurry, Kristina and Pfeiffer, Melissa and Newsome, Kayla and Testerman, Todd and Graf, Joerg and Silver, Adam C and Sacchetti, Paola},
+  journal={Frontiers in Neuroscience},
+  volume={18},
+  pages={1309075},
+  year={2024},
+  publisher={Frontiers},
+  doi={10.3389/fnins.2024.1309075}
+}
+```
 
 ## License
 
