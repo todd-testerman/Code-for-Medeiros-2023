@@ -1,0 +1,30 @@
+# R project files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# R output files
+*.html
+*_files/
+*_cache/
+
+# Data files (too large for git)
+*.qza
+*.qzv
+*.biom
+
+# Output figures (regenerate from code)
+*.png
+*.tiff
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
